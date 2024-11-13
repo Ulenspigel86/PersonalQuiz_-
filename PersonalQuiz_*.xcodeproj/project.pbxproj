@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		61CAF4B42CD1624C001847B3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAF4B32CD1624C001847B3 /* Question.swift */; };
+		61CDE3C72CCFA7A700F3825D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDE3BD2CCFA7A700F3825D /* AppDelegate.swift */; };
+		61CDE3C82CCFA7A700F3825D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDE3C42CCFA7A700F3825D /* SceneDelegate.swift */; };
+		61CDE3C92CCFA7A700F3825D /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDE3C52CCFA7A700F3825D /* QuestionsViewController.swift */; };
+		61CDE3CA2CCFA7A700F3825D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CDE3BE2CCFA7A700F3825D /* Assets.xcassets */; };
+		61CDE3CC2CCFA7A700F3825D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CDE3C12CCFA7A700F3825D /* LaunchScreen.storyboard */; };
+		61CDE3CD2CCFA7A700F3825D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CDE3C32CCFA7A700F3825D /* Main.storyboard */; };
+		61CDE3D32CCFC2C900F3825D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDE3D22CCFC2C900F3825D /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		61CAF4B32CD1624C001847B3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		61CDE3A52CCF92C000F3825D /* PersonalQuiz_*.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersonalQuiz_*.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CDE3BD2CCFA7A700F3825D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61CDE3BE2CCFA7A700F3825D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61CDE3BF2CCFA7A700F3825D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CDE3C02CCFA7A700F3825D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61CDE3C22CCFA7A700F3825D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61CDE3C42CCFA7A700F3825D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61CDE3C52CCFA7A700F3825D /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		61CDE3D22CCFC2C900F3825D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		61CDE3B72CCF92C200F3825D /* Exceptions for "PersonalQuiz_*" folder in "PersonalQuiz_*" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 61CDE3A42CCF92C000F3825D /* PersonalQuiz_* */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		61CDE3A72CCF92C000F3825D /* PersonalQuiz_* */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				61CDE3B72CCF92C200F3825D /* Exceptions for "PersonalQuiz_*" folder in "PersonalQuiz_*" target */,
-			);
-			path = "PersonalQuiz_*";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61CDE3A22CCF92C000F3825D /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		61CDE39C2CCF92C000F3825D = {
 			isa = PBXGroup;
 			children = (
-				61CDE3A72CCF92C000F3825D /* PersonalQuiz_* */,
+				61CDE3C62CCFA7A700F3825D /* PersonalQuiz_* */,
 				61CDE3A62CCF92C000F3825D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,54 @@
 				61CDE3A52CCF92C000F3825D /* PersonalQuiz_*.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		61CDE3C62CCFA7A700F3825D /* PersonalQuiz_* */ = {
+			isa = PBXGroup;
+			children = (
+				61CDE3CF2CCFBF1300F3825D /* ViewControllers */,
+				61CDE3D12CCFC1CC00F3825D /* Models */,
+				61CDE3D02CCFBF8C00F3825D /* StoryBoards */,
+				61CDE3CE2CCFBD7F00F3825D /* App */,
+				61CDE3BE2CCFA7A700F3825D /* Assets.xcassets */,
+			);
+			path = "PersonalQuiz_*";
+			sourceTree = "<group>";
+		};
+		61CDE3CE2CCFBD7F00F3825D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61CDE3BF2CCFA7A700F3825D /* Info.plist */,
+				61CDE3C42CCFA7A700F3825D /* SceneDelegate.swift */,
+				61CDE3BD2CCFA7A700F3825D /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61CDE3CF2CCFBF1300F3825D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61CDE3C52CCFA7A700F3825D /* QuestionsViewController.swift */,
+				61CDE3D22CCFC2C900F3825D /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61CDE3D02CCFBF8C00F3825D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				61CDE3C12CCFA7A700F3825D /* LaunchScreen.storyboard */,
+				61CDE3C32CCFA7A700F3825D /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		61CDE3D12CCFC1CC00F3825D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61CAF4B32CD1624C001847B3 /* Question.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +119,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				61CDE3A72CCF92C000F3825D /* PersonalQuiz_* */,
 			);
 			name = "PersonalQuiz_*";
 			packageProductDependencies = (
@@ -122,6 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CDE3CA2CCFA7A700F3825D /* Assets.xcassets in Resources */,
+				61CDE3CC2CCFA7A700F3825D /* LaunchScreen.storyboard in Resources */,
+				61CDE3CD2CCFA7A700F3825D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +179,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CAF4B42CD1624C001847B3 /* Question.swift in Sources */,
+				61CDE3C72CCFA7A700F3825D /* AppDelegate.swift in Sources */,
+				61CDE3C82CCFA7A700F3825D /* SceneDelegate.swift in Sources */,
+				61CDE3C92CCFA7A700F3825D /* QuestionsViewController.swift in Sources */,
+				61CDE3D32CCFC2C900F3825D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61CDE3C12CCFA7A700F3825D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CDE3C02CCFA7A700F3825D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		61CDE3C32CCFA7A700F3825D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CDE3C22CCFA7A700F3825D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61CDE3B92CCF92C200F3825D /* Debug */ = {
@@ -147,12 +218,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PersonalQuiz_*/Info.plist";
+				INFOPLIST_FILE = "PersonalQuiz_*/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,9 +232,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.PersonalQuiz--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -175,12 +251,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PersonalQuiz_*/Info.plist";
+				INFOPLIST_FILE = "PersonalQuiz_*/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -188,9 +265,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.PersonalQuiz--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
